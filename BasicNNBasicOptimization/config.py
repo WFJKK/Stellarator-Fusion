@@ -1,11 +1,10 @@
 import torch
 
 # --- Hyperparameters ---
-fixed_len = 15
 subset_hyperparam = None #None means all samples
 learning_rate = 1e-3
 batch_size = 32
-num_epochs = 1
+epochs = 30
 dropout_prob = 0.2
 weight_decay = 1e-4
 
